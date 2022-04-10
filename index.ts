@@ -56,6 +56,10 @@ const reducer = (obj: any, parentPrefix: null | string = null) => {
 };
 
 function decode(querystring: string): object {
+  if (querystring.length > 0 && querystring[0] === "?") {
+    querystring = querystring.slice(1);
+  }
+
   return dec(
     querystring
       .split("&")
