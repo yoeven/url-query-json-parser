@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es2018",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": false,
+    "strict": true,
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "lib": ["es2015", "DOM"],
+    "outDir": "dist",
+    "module": "commonjs",
+    "esModuleInterop": true
+  },
+  "include": ["*", "package.json", "src/visa.ts"],
+  "exclude": ["node_modules", "example"]
+}
