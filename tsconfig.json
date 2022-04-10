@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "target": "es2018",
-    "sourceMap": true,
+    "sourceMap": false,
     "moduleResolution": "node",
     "noUnusedLocals": false,
     "strict": true,

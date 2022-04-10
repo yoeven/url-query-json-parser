@@ -1,7 +1,7 @@
 {
   "name": "url-query-json-parser",
-  "description": "Recursive parser for URL query strings to JSON objects and vice versa",
-  "version": "1.0.3",
+  "description": "JSON query parser for URL query strings to complex JSON objects and vice versa",
+  "version": "1.0.4",
   "main": "./dist/index.js",
   "license": "MIT",
   "author": "Yoeven",

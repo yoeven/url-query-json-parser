@@ -1,5 +1,7 @@
 # url-query-json-parser
 
+This module allows you to convert complex JSON object with deeply nested objects and arrays into a query string. On the other hand it converts the query string back into a JSON object with the same conditions while parsing numbers, arrays and booleans.
+
 ## Install
 
 ```bash
