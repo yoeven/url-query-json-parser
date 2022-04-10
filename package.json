@@ -1,12 +1,12 @@
 {
   "name": "url-query-json-parser",
   "description": "Recursive parser for URL query strings to JSON objects and vice versa",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "./dist/index.js",
   "license": "MIT",
   "author": "Yoeven",
   "scripts": {
-    "build": "yarn format && tsc",
+    "build": "yarn format && tsc && cp README.md dist/README.md",
     "format": "prettier --write **/*.ts"
   },
   "devDependencies": {
